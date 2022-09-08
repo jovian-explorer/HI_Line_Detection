@@ -1,0 +1,15 @@
+/home/dev/Project_H1_line_detection/H1_sample_data
+
+
+structure of the command ->>>>>>>>
+python3 data_avg.py -ip [Input file path] -t [average time in seconds] -cali [calibration file path] -l [lower limit of waterfall plot] -u [upper limit of waterfall plot] -f1 [start frequency] -f2 [stop frequency] -dt [Time in hours]
+
+to run with sample data ->>>>>>>>>   
+
+python3 v2.py -ip /home/dev/Project_H1_line_detection/H1_sample_data/Sample_data_2 -t 60 -cali /home/dev/Project_H1_line_detection/cal -l -0.1 -u 0.1 -f1 1420 -f2 1420.5 -dt 0.5
+
+
+to run with real data ->>>>>>>>>>   
+
+python3 subplot.py -ip /home/dev/Project_H1_line_detection/real_data/log_H1_2022_09_05 -t 60 -cali /home/dev/Project_H1_line_detection/calibration/cal_file -l -0.1 -u 0.3 -f1 1420 -f2 1420.5 -dt 0.5
+
