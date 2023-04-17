@@ -1,6 +1,6 @@
 # Project_HI_line_detection
 This project explains hardware and software for a backyard HI line detection experiment.
-
+[![DOI](https://zenodo.org/badge/529909398.svg)](https://zenodo.org/badge/latestdoi/529909398)
 
 # Code Usage
       python3 data_avg.py [-h HELP] [-ip INPUTFILE] [-io OUTPUTFILE] [-t AVGTIME] [-plt PLOTFILENAME] [-res TIMERES] [-cali CALIBRATIONFILE] [-l LOWERCUTOFF] [-u UPPERCUTOFF]
